@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="leaderboard">
+
+<h3>Game History</h3>
+
+<table>
+
+<thead>
+<tr>
+<th>User</th>
+<th>Computer</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody id="history-table">
+
+</tbody>
+
+</table>
+
+</div>
+
+<h1>Rock Paper Scissors</h1>
+
+<div class="timer">
+⏱ <span id="time">0</span>s
+</div>
+<!-- SCORE BOARD (Heading ke niche) -->
+
+<div class="score-board">
+
+  <div class="score">
+    <p id="user-score">0</p>
+    <p>You</p>
+  </div>
+
+  <div class="score">
+    <p id="comp-score">0</p>
+    <p>Comp</p>
+  </div>
+
+</div>
+
+
+<!-- GAME CHOICES -->
+
+<div class="choices">
+
+  <div class="choice" id="rock">
+    <img src="./images/rock.png">
+  </div>
+
+  <div class="choice" id="paper">
+    <img src="./images/paper.png">
+  </div>
+
+  <div class="choice" id="scissors">
+    <img src="./images/scissors.png">
+  </div>
+
+</div>
+
+
+<!-- COMPUTER THINKING -->
+
+<div class="thinking" id="thinking">
+Computer is thinking...
+</div>
+
+
+<!-- MESSAGE -->
+
+<div class="msg-container">
+<p id="msg">Play your move</p>
+</div>
+
+
+<!-- RESTART BUTTON -->
+
+<div class="controls">
+<button id="restart-btn">Restart Game</button>
+</div>
+
+
+<!-- WINNER MODAL -->
+
+<div class="modal" id="winnerModal">
+
+  <div class="modal-content">
+
+    <h2 id="winnerText">Winner</h2>
+
+    <button id="closeModal">
+      Play Again
+    </button>
+
+  </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
