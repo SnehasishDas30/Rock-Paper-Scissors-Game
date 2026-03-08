@@ -17,7 +17,7 @@ https://snehasishdas30.github.io/Rock-Paper-Scissors-Game/StonePaperScissors/
 
 ## 📸 Screenshot
 
-![Game Screenshot](StonePaperScissors/images/screenshot.png)
+![Game Screenshot]([StonePaperScissors/images/screenshot.png](https://github.com/SnehasishDas30/Rock-Paper-Scissors-Game/blob/d3da80426835e3b1d83274f974a12f1830f93b4c/StonePaperScissors/Screenshot%202026-03-08%20105229.png))
 
 ---
 
