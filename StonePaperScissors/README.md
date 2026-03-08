@@ -42,13 +42,13 @@ https://snehasishdas30.github.io/Rock-Paper-Scissors-Game/StonePaperScissors/
 
 ## 📂 Project Structure
 
-Rock-Paper-Scissors-Game
-│
-└── StonePaperScissors
-├── index.html
-├── style.css
-├── app.js
-└── images
+- Rock-Paper-Scissors-Game
+- │
+- └── StonePaperScissors
+- ├── index.html
+- ├── style.css
+- ├── app.js
+- └── images
 
 
 
